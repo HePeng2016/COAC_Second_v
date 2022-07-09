@@ -62,7 +62,7 @@ int main( int argc , char *argv[] )
 
          if(ip==NULL||op==NULL||argc<4)
          {
-            printf("FeatureGen Decipher FeatureFile   InputFile -N TableNameFile OutputFile\n");
+            printf("FeatureGen Decipher FeatureFile   InputFile OutputFile -N TableNameFile\n");
             return 0;
          }
 
